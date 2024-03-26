@@ -1,0 +1,84 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'sanssarif', cursive;
+    }
+    .game{
+    background-image: url(jungle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+
+    .hide {
+    display: none;
+    }
+
+    .startScreen {
+        font-size:20px;
+        width: 500px;
+        height: 160px;
+        line-height: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        margin: auto;
+        background-color: rgb(203, 195, 227);
+        text-align: center;
+        border: 3px dot white;
+        border-radius:20px;
+        box-shadow: 5px grey;
+    }
+
+    .startScreen:hover{
+        background-color: rgb(234, 206, 255) ;
+        transition: all 2s;
+        box-shadow: 10px grey;
+
+    }
+
+    .score,
+    .highScore {    
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    text-align: center;
+    background-color: rgb(230,230,250);
+    width: 200px;
+    color: black;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    box-shadow: 3px 3px grey;
+    }
+    .ClickToStart {
+    cursor: pointer;
+    }
+    .gameArea {
+    height: 100vh;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+        
+    }
+    .dyno{
+    background: url(dino.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: 520px;
+    }
+    .Opponents {
+    background: url(cactus.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75px;
+    width: 50px;
+    position: absolute;
+    top: 520px;
+    }
+   
